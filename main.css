@@ -1,0 +1,60 @@
+body{
+  background-color: antiquewhite;
+}
+
+.ghost-coffin{
+    align-items: center;
+   position: absolute;
+   top:25px;
+   left:88px; right:20px;
+   height:750px;
+   width:750px;
+}
+ .coffin-side-in{
+  fill: #322424;
+   }
+      
+ .coffin-inner {
+  fill:#493535;
+  }
+      
+  .ghost {
+  fill:aliceblue;
+   }
+.eyes{
+  fill:#000
+}
+
+
+
+.coffin-front {
+    fill: #493535;
+  }
+.coffin-side{
+ fill: #322424;
+}
+.coffin{
+    align-items: center;
+  position:absolute;
+  top:60px;
+  left:5px;right:56px;
+  height:750px;
+  width:750px;
+  }
+
+.coffin:hover{
+    animation-duration: 1s;
+    animation-name: slideoff;
+   animation-direction:normal;
+
+}
+
+@keyframes slideoff{
+    from{
+      transform: rotateZ(0);
+    } 
+    to{
+        transform: rotateZ(-18deg);
+    }
+
+}
